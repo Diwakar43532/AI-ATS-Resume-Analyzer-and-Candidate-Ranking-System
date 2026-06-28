@@ -45,8 +45,7 @@ if st.button("Analyze Resume"):
         tmp.write(uploaded_file.read())
         temp_path = tmp.name
 
-    url = "http://127.0.0.1:8000/resume/match"
-
+    API_URL = API_URL = "https://ai-ats-resume-analyzer-and-candidate.onrender.com/resume/parse"
     with open(temp_path, "rb") as f:
         mime = (
             "application/pdf"
@@ -55,7 +54,7 @@ if st.button("Analyze Resume"):
         )
 
         response = requests.post(
-            url,
+            API_URL,
             files={
                 "file": (uploaded_file.name, f, mime)
             },

@@ -81,13 +81,15 @@ if st.button("Rank Resumes"):
 
                 )
 
+            BASE_URL = "https://ai-ats-resume-analyzer-and-candidate.onrender.com"
+
             response = requests.post(
 
-                "http://127.0.0.1:8000/batch/parse",
+                f"{BASE_URL}/batch/parse",
 
                 files=files,
 
-               data={
+                data={
                     "job_description": job_description
                 }
 
