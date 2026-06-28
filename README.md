@@ -91,13 +91,13 @@ Streamlit Community Cloud
 
 🌐 Live Demo
 Frontend (Streamlit)
-https://YOUR-STREAMLIT-APP.streamlit.app
+https://ai-ats-resume-analyzer-and-candidate-ranking-system-5csafpcr4p.streamlit.app/
 
 Backend API (Render)
-https://YOUR-RENDER-APP.onrender.com
+https://ai-ats-resume-analyzer-and-candidate.onrender.com
 
 GitHub Repository
-https://github.com/Diwakar43532/AI-ATS-Resume-Analyzer-and-Candidate-Ranking-System
+https://github.com/Diwakar43532/AI-ATS-Resume-Analyzer-and-Candidate-Ranking-System.git
 
 📸 Screenshots
 
