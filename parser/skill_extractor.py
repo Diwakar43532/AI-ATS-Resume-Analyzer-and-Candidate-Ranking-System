@@ -35,7 +35,7 @@ class SkillExtractor:
         # Full path to skills.json
         skill_file = BASE_DIR / "data" / "skills.json"
 
-        print("Skill File:", skill_file)
+        
 
         with open(skill_file, "r", encoding="utf-8") as f:
             self.skills = json.load(f)
@@ -53,6 +53,6 @@ class SkillExtractor:
             pattern = r"\b" + re.escape(skill.lower()) + r"\b"
 
             if re.search(pattern, text):
-                print("Matched:", skill)
+                
                 found.append(skill)
         return sorted(list(set(found)))
