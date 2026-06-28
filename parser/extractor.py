@@ -29,6 +29,3 @@ class TextExtractor:
             paragraphs.append(paragraph.text)
 
         return "\n".join(paragraphs)
-
-extractor = TextExtractor()
-text = extractor.extract(r"D:\Python.. learnig\Resume Prediction Project\data\sample_resume\Ashish_Kumar_Resume.pdf")
