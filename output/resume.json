@@ -1,0 +1,52 @@
+{
+    "name": "CANDIDATE 25",
+    "email": "candidate25@example.com",
+    "phone": "+91-9000000025",
+    "linkedin": null,
+    "github": null,
+    "skills": [
+        "Git",
+        "Machine Learning",
+        "Python",
+        "SQL"
+    ],
+    "summary": [
+        "Motivated professional seeking a Blockchain Developer position."
+    ],
+    "portfolio": null,
+    "education": [
+        {
+            "degree": "B.Tech",
+            "college": "",
+            "year": "",
+            "cgpa": "8.5",
+            "percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "role": "Intern",
+            "company": "ABC Technologies",
+            "duration": "3 months",
+            "description": []
+        }
+    ],
+    "projects": [
+        {
+            "title": "Project Alpha",
+            "description": ""
+        },
+        {
+            "title": "Project Beta",
+            "description": ""
+        }
+    ],
+    "certifications": [
+        "Python Programming, Machine Learning Basics"
+    ],
+    "languages": [],
+    "warnings": [
+        "LinkedIn profile missing",
+        "GitHub profile missing"
+    ]
+}
