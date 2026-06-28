@@ -1,4 +1,11 @@
-📄 AI ATS Resume Analyzer & Candidate Ranking System
+
+# 📄 AI ATS Resume Analyzer & Candidate Ranking System
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
+![spaCy](https://img.shields.io/badge/spaCy-NLP-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 An AI-powered Applicant Tracking System (ATS) that parses resumes, evaluates candidates against job descriptions, calculates ATS scores, and ranks multiple applicants using Machine Learning and NLP.
 
@@ -51,63 +58,9 @@ Streamlit Dashboard
 FastAPI Backend
 Interactive Progress Bar
 Download Reports
-🏗️ Project Architecture
-                User
-                  │
-                  ▼
-        Streamlit Frontend
-                  │
-        REST API (HTTP Requests)
-                  │
-                  ▼
-           FastAPI Backend
-                  │
-      Resume Parsing Pipeline
-                  │
- ┌───────────────┼───────────────┐
- │               │               │
- ▼               ▼               ▼
-Text        Information      ATS Score
-Extraction   Extraction      Calculation
- │               │               │
- └───────────────┼───────────────┘
-                 ▼
-          Candidate Ranking
-                 ▼
-          JSON / CSV Export
-📂 Folder Structure
-AI-ATS-Resume-Analyzer-and-Candidate-Ranking-System
-│
-├── backend/
-│   ├── main.py
-│   ├── routes.py
-│   └── routers/
-│
-├── parser/
-│   ├── extractor.py
-│   ├── cleaner.py
-│   ├── regex_extractor.py
-│   ├── section_parser.py
-│   ├── skill_extractor.py
-│   ├── ner_extractor.py
-│   ├── ats_scorer.py
-│   ├── validator.py
-│   ├── exporter.py
-│   ├── jd_matcher.py
-│   └── parser.py
-│
-├── pages/
-│   ├── Resume_Analyzer.py
-│   └── Resume_Ranking.py
-│
-├── data/
-│
-├── output/
-│
-├── Home.py
-├── requirements.txt
-├── runtime.txt
-└── README.md
+
+          
+
 ⚙️ Tech Stack
 Programming Language
 Python
@@ -135,13 +88,17 @@ GitHub
 Render
 Streamlit Community Cloud
 
+
 🌐 Live Demo
 Frontend (Streamlit)
-https://ai-ats-resume-analyzer-and-candidate-ranking-system-5csafpcr4p.streamlit.app/
+https://YOUR-STREAMLIT-APP.streamlit.app
+
 Backend API (Render)
-Paste Your Render URL Here
+https://YOUR-RENDER-APP.onrender.com
+
 GitHub Repository
-Paste Your GitHub Repository URL Here
+https://github.com/Diwakar43532/AI-ATS-Resume-Analyzer-and-Candidate-Ranking-System
+
 📸 Screenshots
 
 Add screenshots for:
@@ -154,15 +111,7 @@ Add screenshots for:
 📥 JSON Export
 📄 CSV Export
 
-Example:
 
-screenshots/
-│
-├── home.png
-├── analyzer.png
-├── ranking.png
-├── ats_score.png
-└── dashboard.png
 📈 Workflow
 Upload Resume
       │
@@ -189,6 +138,8 @@ Rank Candidates
       │
       ▼
 Export Results
+
+
 🔮 Future Improvements
 AI-powered resume improvement suggestions
 LLM-based semantic matching
@@ -200,6 +151,8 @@ Email notifications
 Docker support
 GitHub Actions (CI/CD)
 Advanced analytics and reports
+
+
 👨‍💻 Author
 
 Diwakar Kushwaha
@@ -211,6 +164,3 @@ Diwakar Kushwaha
 
 This project is licensed under the MIT License.
 
-⭐ Support
-
-If you found this project helpful, consider starring ⭐ the repository and sharing it with others. Contributions, suggestions, and feedback are always welcome!
